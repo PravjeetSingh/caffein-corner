@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -93,3 +94,52 @@ footer:hover {
         margin-top: 20px;
     }
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .parallax {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-image: url("images/pexels-goumbik-942803.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    backdrop-filter: blur(8px); /* Apply blur effect to the background behind the text */
+    border-radius: 8px;
+    max-width: 80%; /* Adjust width to fit within the view */
+  }
+  
+  .parallax-content h2 {
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Change font family for a clean look */
+  }
+  
+  .parallax-content h3 {
+    font-size: 28px;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .parallax-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0 0;
+    font-family: 'Arial', sans-serif;
+  }
+
