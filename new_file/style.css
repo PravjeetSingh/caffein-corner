@@ -1,3 +1,325 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#varieties {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4%;
+    margin: 8%;
+}
+
+#varieties img {
+    height: 80%;
+    width: 100%;
+    border-radius: 2%;
+
+}
+
+
+#text h1 {
+    color: rgb(13, 12, 13);
+    text-align: center;
+}
+
+#text p {
+    color: gray;
+    text-align: center;
+    font-size: 120%;
+}
+
+.main {
+    height: fit-content;
+    background-color: #161718;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.heading h1 {
+    margin: auto;
+    font-family: 'Forum', cursive;
+    color: #942d42;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 2vw, 4rem);
+}
+
+.heading p {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFF;
+    font-size: 150%
+}
+
+.first-box {
+    gap: 20px;
+    padding: 2rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.first-box1 {
+    width: 300px;
+    background: linear-gradient(230deg, #e0d79ceb, #942d42);
+    box-shadow: 2px 4px 6px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+    gap: 20px;
+}
+
+.first-box1 img {
+    height: 60%;
+    width: 70%;
+    margin: auto;
+}
+
+.first-box1 h3 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'DM Sans', serif;
+}
+
+.first-box1 span {
+    color: white;
+    font-size: .8em;
+    font-weight: 700;
+    font-family: 'DM Sans', serif;
+}
+
+.first-box1 button {
+    background-color: #1617187a;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 45%;
+    font-family: 'DM Sans', serif;
+    transition: background-color 0.5s;
+}
+
+.first-box1 button:hover {
+    background-color: #16171860;
+}
+
+
+
+.first-box2 {
+    width: 450px;
+    background: linear-gradient(230deg, #e0d79ceb, #942d42);
+    box-shadow: 2px 4px 6px black;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0px 20px;
+}
+
+.first-box2 img {
+    height: 50%;
+    margin-left: 105px;
+}
+
+.first-box2 h3 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'DM Sans', serif;
+    margin-top: 35px;
+}
+
+.first-box2 span {
+    color: white;
+    font-size: .8em;
+    font-weight: 700;
+    font-family: 'DM Sans', serif;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.first-box2 button {
+    background-color: #1617187a;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 45%;
+    font-family: 'DM Sans', serif;
+    transition: background-color 0.5s;
+}
+
+.first-box2 button:hover {
+    background-color: #16171860;
+}
+
+/* First Grid Styling ends here */
+
+/* This styling for second Grid */
+.second-box {
+    /* width: 70%; */
+    height: fit-content;
+    gap: 20px;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.second-box1 {
+    width: 500px;
+    background: linear-gradient(230deg, #e0d79ceb, #942d42);
+    box-shadow: 2px 4px 6px black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    padding: 1rem 0px 1rem 1rem;
+}
+
+.second-box1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.second-box1 img {
+    width: 60%;
+    height: 100%;
+    margin-left: -80px;
+}
+
+.second-box1 h1 {
+    font-size: 1.7em;
+    font-family: 'DM Sans', serif;
+}
+
+.second-box1 p {
+    font-size: .8em;
+    font-family: 'DM Sans', serif;
+    font-weight: 700;
+}
+
+.second-box1 button {
+    background-color: #1617187a;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 45%;
+    font-family: 'Jost', sans-serif;
+    transition: background-color 0.5s;
+}
+
+.second-box1 button:hover {
+    background-color: #16171860;
+}
+
+
+.second-box2 {
+    width: 300px;
+    background: linear-gradient(230deg, #e0d79ceb, #942d42);
+    box-shadow: 2px 4px 6px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 1rem;
+    color: white;
+}
+
+.second-box2 h1 {
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 400;
+    font-family: 'DM Sans', serif;
+}
+
+.second-box2 button {
+    background-color: #1617187a;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 45%;
+    font-family: 'Jost', sans-serif;
+    transition: background-color 0.5s;
+}
+
+.second-box2 button:hover {
+    background-color: #16171860;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%)
+    }
+}
+
+.slide img {
+    height: 80%;
+    width: 100%;
+}
+
+.slider {
+    background: white;
+    height: 100%;
+    overflow: hidden;
+    margin: 4%;
+
+    .slide-track {
+        animation: scroll 25s linear infinite;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        gap: 3%;
+        min-width: 200%;
+
+    }
+
+
+    &:hover {
+        .slide-track {
+            animation-play-state: paused;
+        }
+    }
+
+
+    .slide {
+        transition: 300ms all linear;
+
+        &:hover {
+            filter: none;
+        }
+    }
+}
+
 .parrent {
     display: flex;
     align-items: center;
@@ -128,6 +450,7 @@
     text-align: center;
     font-family: 'DM Sans', sans-serif;
 }
+
 /* about us start  */
 
 .about-container {
@@ -139,16 +462,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     /* max-width: 1340px; */
     margin: auto;
     padding: 4rem 0;
 }
 
 .separator {
-    width: 100px; 
+    width: 100px;
     margin: 10px 0;
-    
+
 }
 
 .title {
