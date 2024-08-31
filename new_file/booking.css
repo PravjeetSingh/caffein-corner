@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+nav{
+    border-bottom: 1px solid #aaaaaa43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    transition: 0.4s;
+    animation: navColor 4s forwards;
+    animation-timeline: scroll();
+}
+
+@keyframes navColor {
+    0% {
+        background-color: transparent;
+        border-bottom: 1px solid transparent;
+
+    }
+
+    20% {
+        background-color: #161718;
+    }
+
+    100% {
+        background-color: #161718;
+    }
+}
+
+
+.navbar-contents{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+
+.navbar-contents a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+} 
+
+.logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: brown;
+}
+
+.nav-btn {
+    background-color: brown;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+main {
+    /* background-color: #161718; */
+    padding: 100px 10px;
+    width: 100%;
+    background-image: url("./imeges/bg.jpg");
+}
+
+div.outerbox {
+    color: white;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.096);
+    width: 1340px;
+    margin: auto;
+    display: flex;
+    text-align: center;    
+}
+
+div.innerboxleft {
+    width: 70%;
+    padding: 75px 60px 0px 60px;
+    background-color: #161718;
+}
+
+div.innerboxleft>h1 {
+    font-family: "Forum", serif;
+    font-size: clamp(2rem, 3vw, 80px);
+    font-weight: 400;
+    
+}
+
+div.innerboxleft>p {
+    font-family: "DM Sans", sans-serif;
+    font-size: clamp(12px, 3vw, 18px);
+    margin-bottom: 40px;
+}
+
+div.innerboxleft span {
+    color: rgb(228, 197, 144);
+}
+
+div#first_input_section {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+div#first_input_section>input {
+    background-color: rgb(27, 28, 29);
+    color: white;
+    width: 50%;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+div#first_input_section>input::placeholder {
+    color: white;
+}
+
+div#second_input_section {
+    /* border: 1px solid white; */
+    display: flex;
+
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+div#second_input_section>select {
+    background-color: rgb(27, 28, 29);
+    color: white;
+    width: 33%;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+}
+
+div#second_input_section>input {
+    background-color: rgb(27, 28, 29);
+    color: white;
+    width: 33%;
+    height: 56px;
+    padding: 10px 20px 10px 20px;
+}
+
+div.innerboxleft>form>textarea {
+    background-color: rgb(27, 28, 29);
+    color: white;
+    width: 100%;
+    height: 140px;
+    resize: none;
+    padding: 10px 20px 10px 20px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+div.innerboxleft>form input::placeholder {
+    font-family: "DM Sans", sans-serif;
+}
+
+div.innerboxleft>form>button {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(228, 197, 144);
+}
+
+div.innerboxleft>form>button:hover {
+    cursor: pointer;
+}
+
+
+
+div.innerboxright {
+    width: 30%;
+    height: 660px;
+    background-color: #121212;
+    padding: 75px 60px 0px 60px;
+    background-image: linear-gradient(#12121235, #12121246), url(./images/booking/form-pattern.png);
+    background-position: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+div.innerboxright{ 
+    display: flex; 
+    flex-direction: column;
+
+} 
+div.innerboxright>h1 {
+    margin-bottom: 40px;
+    font-family: "Forum", serif;
+    font-size: clamp(2rem, 3vw, 62px);
+    font-weight: 400;
+}
+
+div.innerboxright>p:nth-of-type(1) {
+    font-weight: 700;
+
+}
+
+div.innerboxright>p:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 30px;
+
+    color: rgb(228, 197, 144);
+    margin: 20px;
+
+}
+
+div.innerboxright>p:nth-of-type(3) {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+div.innerboxright>p:nth-of-type(4) {
+    font-weight: 400;
+    color: rgb(166, 166, 166);
+    margin-block-end: 25px;
+}
+
+div.innerboxright>p:nth-of-type(5),
+div.innerboxright>p:nth-of-type(8) {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+div.innerboxright>p:nth-of-type(6),
+div.innerboxright>p:nth-of-type(9) {
+    font-weight: 400;
+    color: rgb(166, 166, 166);
+}
+
+div.innerboxright>p:nth-of-type(7),
+div.innerboxright>p:nth-of-type(10) {
+    margin-bottom: 25px;
+    color: rgb(166, 166, 166);
+}
+
+@media (width<=1024px) {
+    div.outerbox {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px;
+
+    }
+
+    div.innerboxleft {
+        width: auto;
+        padding-bottom: 60px;
+    }
+
+    div.innerboxright {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media(width<=480px) {
+    div#first_input_section {
+        flex-direction: column;
+    }
+
+    div.innerboxleft {
+        width: 100%;
+        padding: 15px;
+        background-color: #161718;
+        border: 1px solid white;
+    }
+    
+    div.innerboxright {
+        width: 100%;
+        height: fit-content;
+        background-color: #121212;
+        padding: 20px;
+        background-image: linear-gradient(#12121235, #12121246), url(./images/booking/form-pattern.png);
+        background-position: center;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    div#first_input_section>input {
+        width: 100%;
+    }
+
+    div#second_input_section {
+        flex-direction: column;
+    }
+
+    div#second_input_section>select {
+        width: 100%;
+    }
+
+    div#second_input_section>input {
+        width: 100%;
+    }
+
+
+}
+
