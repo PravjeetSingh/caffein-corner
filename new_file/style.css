@@ -1,4 +1,7 @@
 
+ 
+/* Shreyas section 1 start */
+ 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -150,6 +153,7 @@ nav{
 }
  
 /* section 1 start */
+ 
 
 .section-1 {
     height: 700px;
@@ -173,60 +177,10 @@ nav{
     background-color: #FFF;
     text-align: center;
     padding: 20px;
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
-#varieties {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 4%;
-    margin: 8%;
-}
-
-#varieties img {
-    height: 80%;
-    width: 100%;
-    border-radius: 2%;
-
-}
-
-
-#text h1 {
-    color: rgb(13, 12, 13);
-    text-align: center;
-}
-
-#text p {
-    color: gray;
-    text-align: center;
-    font-size: 120%;
-}
-
-.main {
-    height: fit-content;
-    background-color: #161718;
-}
-
-.main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 1rem;
-}
-
-.heading {
-    text-align: center;
-    margin-top: 50px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     gap: 1.2rem;
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -282,7 +236,7 @@ body {
   
   .item1 {
     grid-area: 1 / 1 / 2 / 2; /* Row 1, Column 1 */
-    background-image: url("./images/cupcakes.jpeg");
+    background-image: url("./images/pizza-burger.webp");
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
@@ -290,7 +244,7 @@ body {
   
   .item2 {
     grid-area: 1 / 2 / 2 / 3; /* Row 1, Column 2 */
-    background-image: url("./images/ice cream.jpeg");
+    background-image: url("./images/coffee.jpeg");
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
@@ -299,7 +253,7 @@ body {
   .item3 {
     /* Changed to look like item2 (square) */
     grid-area: 2 / 1 / 3 / 2; /* Row 2, Column 1 */
-    background-image: url("./images/pizza.jpg");
+    background-image: url("./images/Sandwitch.png");
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
@@ -308,7 +262,7 @@ body {
   .item4 {
     /* Changed to look like item1 (wider) */
     grid-area: 2 / 2 / 3 / 3; /* Row 2, Column 2 */
-    background-image: url("./images/coffee.jpeg");
+    background-image: url("./images/pastries.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
@@ -316,7 +270,7 @@ body {
   
   .item5 {
     grid-area: 3 / 1 / 4 / 2; /* Row 3, Column 1 */
-    background-image: url("./images/noodles.jpeg");
+    background-image: url("./images/BreakfastItems.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
@@ -324,7 +278,7 @@ body {
   
   .item6 {
     grid-area: 3 / 2 / 4 / 3; /* Row 3, Column 2 */
-    background-image: url("./images/croissaint.jpeg");
+    background-image: url("./images/desserts.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
@@ -461,11 +415,118 @@ body {
   }
   
   /* section 1 end */
-
+  
+  .icon-image-section {
+    background-color: #161718;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-hover-container {
+    padding: 30px 0px;
+  }
+  
+  .icon-image-section h2 {
+    color: #f0be67;
+    font-size: clamp(1rem, 5vw, 3rem);
+    font-family: 'Forum', cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .logo-hover-container-detail {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-hover-container-detail img {
+    width: 300px;
+    height: 50px;
+    margin: 10px 0;
+  }
+  
+  .logo-hover-container-detail p {
+    font-size: clamp(0.8rem, 3vw, 12px);
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .event-card-container {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
     gap: 20px;
-
-}
+  }
+  
+  .event-card {
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .e1 {
+    background-image: linear-gradient(transparent, black), url("./images/event-set-1.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .e2 {
+    background-image: linear-gradient(transparent, black), url("./images/latteArt.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+  .e3 {
+    background-image: linear-gradient(transparent, black), url("./images/Dishes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .event-card-text {
+    position: relative;
+    top: 18rem;
+  }
+  
+  .event-card h2 {
+    right: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    text-transform: uppercase;
+    margin: 1rem 0;
+  }
+  
+  .event-card p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #E4C590;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+  }
+  /* Shreyas section 1 start */
 
 .heading h1 {
     margin: auto;
