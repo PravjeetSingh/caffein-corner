@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    background-position: center;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+#heading {
+    text-align: center;
+    color: rgb(141, 104, 17)
+}
+
+#heading p {
+    color: gray;
+    font-size: 200%;
+}
+
+.dish {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 2%
+}
+
+#image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+#content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#grid-container {
+    padding: 5% 10% 10% 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2%;
+
+}
+
+@media (max-width: 750px) {
+    .dish {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2%;
+    }
+
+}
