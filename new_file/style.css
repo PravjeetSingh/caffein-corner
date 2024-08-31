@@ -15,11 +15,7 @@ body {
     height: 100%;
     margin: auto;
     overflow-x: hidden;
-
-    /* background-color: yellow; */
-
-    background-color: yellow;
-
+ 
     font-family: "Roboto", sans-serif;
     
 }
@@ -1230,10 +1226,6 @@ footer {
     flex-wrap: wrap;
     padding: 10px 0;
     border-bottom: 1px solid #ffffff4b;
-}
-
-.footer-logo img {
-    width: 200px;
 }
 
 .footer-social {
