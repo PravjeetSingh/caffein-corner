@@ -2,9 +2,6 @@
 ## Objective
 <div>Cafe Delight is a visually appealing, responsive website created to enhance the online presence and boost sales of a local cafe, focusing on modern design and optimal user experience using HTML and CSS.</div>
 
-## Roadmap
-<div><img src="https://assets-global.website-files.com/62eb542250d6566e8b77a3d0/65502b058950083da616ff6e_1(73).png" width="400" height="230px"> </div>
-
 ## Features
 <div>The website features responsive design, parallax scrolling, product showcases, social media feed integration, all optimized for performance and user experience.</div>
 
