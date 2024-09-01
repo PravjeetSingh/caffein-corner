@@ -10,7 +10,7 @@
 
 <div> 
 <h3>Project Logo</h3>
-  <img src="./images/logo.png" width="270px" height="110px">
+  <img src="./new_file/images/logo.png" width="270px" height="110px">
 </div>
 
 <h3 align="left">Languages and Tools:</h3>
