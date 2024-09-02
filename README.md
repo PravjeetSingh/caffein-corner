@@ -17,7 +17,7 @@
 ## Screenshots
 <div>
 <h3>Home Page </h3>
-  <img src="C:\Users\Asus\caffein-corner\new_file\images\Homepage.png" width="370" height="230px"> 
+  <img src="./images/Homepage.png" width="370" height="230px"> 
 </div>
 
 <div> 
