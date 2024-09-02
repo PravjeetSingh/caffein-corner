@@ -21,7 +21,7 @@
 </div>
 
 <div> 
-  <img src="./images/SS 2.jpeg" width="350" height="200px">
+  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 2.jpeg" width="350" height="200px">
 </div>
 <div> 
   <img src="./images/SS 3.jpeg" width="370" height="230px">
