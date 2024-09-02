@@ -32,7 +32,7 @@ This project is built with a focus on simplicity, using clean code and modern de
 ## Screenshots
 <div>
 <h3>Home Page </h3>
-  <img src=".new_file/images/Homepage.png" width="370" height="230px"> 
+  <img src="./new_file/images/Homepage.png" width="370" height="230px"> 
 </div>
 
 <div> 
