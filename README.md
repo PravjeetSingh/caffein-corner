@@ -49,4 +49,4 @@
 * Then cd Sovereignty-Scripters_013-
 * npm install
 * npm start
-* Visit your app at http://localhost:3000.
+* Visit your app at https://cafedelightmasai.netlify.app/
