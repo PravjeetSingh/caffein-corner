@@ -20,7 +20,9 @@ Cafe Delight is a responsive and visually appealing website designed to enhance 
 Key features of the website include:
 
 **Product Showcases**: Attractive displays of cafe products with engaging visuals.
+
 **Social Media Integration**: A live feed of the cafe's social media updates to keep customers engaged.
+
 **Optimized Web Vitals**: Ensuring fast load times and smooth performance using only HTML and CSS.
 
 This project is built with a focus on simplicity, using clean code and modern design principles, without relying on heavy animation frameworks like glassmorphism or neumorphism. Cafe Delight is a showcase of minimalist design with maximum impact.
