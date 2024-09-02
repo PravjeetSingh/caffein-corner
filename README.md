@@ -17,27 +17,27 @@
 ## Screenshots
 <div>
 <h3>Home Page </h3>
-  <img src="./images/Homepage.png" width="370" height="230px"> 
+  <img src="C:\Users\Asus\caffein-corner\new_file\images\Homepage.png" width="370" height="230px"> 
 </div>
 
 <div> 
   <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 2.jpeg" width="350" height="200px">
 </div>
 <div> 
-  <img src="./images/SS 3.jpeg" width="370" height="230px">
+  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 3.jpeg" width="370" height="230px">
 </div>
 <div> 
 
-  <img src="./images/SS 4.jpeg" width="370" height="230px"> 
+  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 4.jpeg" width="370" height="230px"> 
 </div>
 
 <div> 
-  <img src="./images/SS 5.jpeg" width="370" height="230px"> 
+  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 5.jpeg" width="370" height="230px"> 
 </div>
 
 <div> 
  
-  <img src="./images/SS 6.jpeg" width="370" height="230px"> 
+  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 6.jpeg" width="370" height="230px"> 
 </div>
 
 ## Technologies Stack:
