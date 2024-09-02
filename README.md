@@ -36,23 +36,23 @@ This project is built with a focus on simplicity, using clean code and modern de
 </div>
 
 <div> 
-  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 2.jpeg" width="350" height="200px">
+  <img src="./new_file/images/SS 2.jpeg" width="350" height="200px">
 </div>
 <div> 
-  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 3.jpeg" width="370" height="230px">
+  <img src="./new_file/images/SS 3.jpeg" width="370" height="230px">
 </div>
 <div> 
 
-  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 4.jpeg" width="370" height="230px"> 
+  <img src="./new_file/images/SS 4.jpeg" width="370" height="230px"> 
 </div>
 
 <div> 
-  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 5.jpeg" width="370" height="230px"> 
+  <img src="./new_file/images/SS 5.jpeg" width="370" height="230px"> 
 </div>
 
 <div> 
  
-  <img src="C:\Users\Asus\caffein-corner\new_file\images\SS 6.jpeg" width="370" height="230px"> 
+  <img src="./new_file/images/SS 6.jpeg" width="370" height="230px"> 
 </div>
 
 ## Technologies Stack:
